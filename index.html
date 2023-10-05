@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Bootstrap Page</title>
+    <!-- Bootstrap CSS 파일 추가 -->
+    <link rel="stylesheet" href="./bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <!-- 자체 CSS 파일 추가 -->
+    <link rel="stylesheet" href="./custom-style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">My Website</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="jumbotron">
+            <h1 class="display-4">Hello, Bootstrap!</h1>
+            <p class="lead">This is a simple website built using Bootstrap.</p>
+            <hr class="my-4">
+            <p>It provides various CSS and JavaScript components for responsive web development.</p>
+            <a class="btn btn-primary btn-lg" id="alert-button" href="#" role="button">Learn more</a>
+        </div>
+    </div>
+
+    <img src="./images/beach.jpg" id="change-image" alt="Image" />
+
+
+    <!-- Bootstrap JavaScript 파일 및 jQuery 추가 -->
+    <script src="./bootstrap-5.3.1-dist/js/bootstrap.min.js"></script>
+    <!-- 자체 JavaScript 파일 추가 -->
+    <script src="./custom-script.js"></script>
+</body>
+</html>
